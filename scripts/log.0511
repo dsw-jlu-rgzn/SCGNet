@@ -1,0 +1,62 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "/nfs/volume-92-1/shuweidong_i/the_mmdetection3d/mmdetection3d/tools/train.py", line 224, in <module>
+Traceback (most recent call last):
+  File "/nfs/volume-92-1/shuweidong_i/the_mmdetection3d/mmdetection3d/tools/train.py", line 224, in <module>
+Traceback (most recent call last):
+  File "/nfs/volume-92-1/shuweidong_i/the_mmdetection3d/mmdetection3d/tools/train.py", line 224, in <module>
+Traceback (most recent call last):
+  File "/nfs/volume-92-1/shuweidong_i/the_mmdetection3d/mmdetection3d/tools/train.py", line 224, in <module>
+    main()
+  File "/nfs/volume-92-1/shuweidong_i/the_mmdetection3d/mmdetection3d/tools/train.py", line 97, in main
+    main()
+    main()
+  File "/nfs/volume-92-1/shuweidong_i/the_mmdetection3d/mmdetection3d/tools/train.py", line 97, in main
+    main()
+  File "/nfs/volume-92-1/shuweidong_i/the_mmdetection3d/mmdetection3d/tools/train.py", line 97, in main
+  File "/nfs/volume-92-1/shuweidong_i/the_mmdetection3d/mmdetection3d/tools/train.py", line 97, in main
+    cfg = Config.fromfile(args.config)
+  File "/usr/local/lib/python3.6/dist-packages/mmcv/utils/config.py", line 316, in fromfile
+    use_predefined_variables)
+  File "/usr/local/lib/python3.6/dist-packages/mmcv/utils/config.py", line 180, in _file2dict
+    cfg = Config.fromfile(args.config)
+    check_file_exist(filename)
+  File "/usr/local/lib/python3.6/dist-packages/mmcv/utils/config.py", line 316, in fromfile
+  File "/usr/local/lib/python3.6/dist-packages/mmcv/utils/path.py", line 23, in check_file_exist
+    use_predefined_variables)
+  File "/usr/local/lib/python3.6/dist-packages/mmcv/utils/config.py", line 180, in _file2dict
+    cfg = Config.fromfile(args.config)
+    raise FileNotFoundError(msg_tmpl.format(filename))
+    check_file_exist(filename)
+  File "/usr/local/lib/python3.6/dist-packages/mmcv/utils/path.py", line 23, in check_file_exist
+    cfg = Config.fromfile(args.config)
+  File "/usr/local/lib/python3.6/dist-packages/mmcv/utils/config.py", line 316, in fromfile
+  File "/usr/local/lib/python3.6/dist-packages/mmcv/utils/config.py", line 316, in fromfile
+FileNotFoundError: file "/nfs/volume-92-1/shuweidong_i/the_mmdetection3d/mmdetection3d/scripts/configs/votenet/votenet_8x8_scannet-3d-18class.py" does not exist
+    raise FileNotFoundError(msg_tmpl.format(filename))
+    use_predefined_variables)
+  File "/usr/local/lib/python3.6/dist-packages/mmcv/utils/config.py", line 180, in _file2dict
+FileNotFoundError: file "/nfs/volume-92-1/shuweidong_i/the_mmdetection3d/mmdetection3d/scripts/configs/votenet/votenet_8x8_scannet-3d-18class.py" does not exist
+    use_predefined_variables)
+  File "/usr/local/lib/python3.6/dist-packages/mmcv/utils/config.py", line 180, in _file2dict
+    check_file_exist(filename)
+  File "/usr/local/lib/python3.6/dist-packages/mmcv/utils/path.py", line 23, in check_file_exist
+    check_file_exist(filename)
+    raise FileNotFoundError(msg_tmpl.format(filename))
+  File "/usr/local/lib/python3.6/dist-packages/mmcv/utils/path.py", line 23, in check_file_exist
+FileNotFoundError: file "/nfs/volume-92-1/shuweidong_i/the_mmdetection3d/mmdetection3d/scripts/configs/votenet/votenet_8x8_scannet-3d-18class.py" does not exist
+    raise FileNotFoundError(msg_tmpl.format(filename))
+FileNotFoundError: file "/nfs/volume-92-1/shuweidong_i/the_mmdetection3d/mmdetection3d/scripts/configs/votenet/votenet_8x8_scannet-3d-18class.py" does not exist
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.6/dist-packages/torch/distributed/launch.py", line 260, in <module>
+    main()
+  File "/usr/local/lib/python3.6/dist-packages/torch/distributed/launch.py", line 256, in main
+    cmd=cmd)
+subprocess.CalledProcessError: Command '['/usr/bin/python', '-u', '/nfs/volume-92-1/shuweidong_i/the_mmdetection3d/mmdetection3d/tools/train.py', '--local_rank=3', './configs/votenet/votenet_8x8_scannet-3d-18class.py', '--launcher', 'pytorch']' returned non-zero exit status 1.
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
