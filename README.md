@@ -7,6 +7,8 @@ Point-based  indoor 3D object detection has received increasing attention with t
 
  
 
+##Notes
+Our "Semantic-Context Graph Network for Point-based 3D Object Detection" was ACCEPTED as a Transactions Paper for publication in the IEEE Transactions on Circuits and Systems for Video Technology.
 
 
 ## Introduction
