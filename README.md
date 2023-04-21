@@ -114,6 +114,6 @@ For `imVoteNet+SCGNet` training, please go to the `mmdetection` dir and run:
 CUDA_VISIBLE_DEVICES=0 python tools/train.py configs/gcn/graph_imvotenet-stage2_16x8_sunrgbd-3d-10class.py
 ```
 
-### Interests
+## Interests
 If you are interested in our work, please pay attention to the Wechat Official Accounts "计算创意与艺术"
 
