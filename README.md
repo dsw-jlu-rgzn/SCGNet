@@ -115,14 +115,14 @@ CUDA_VISIBLE_DEVICES=0 python tools/train.py configs/gcn/graph_imvotenet-stage2_
 ```
 # Citation
         @ARTICLE{10111028,
-  author={Dong, Shuwei and Kong, Xiaoyu and Pan, Xingjia and Tang, Fan and Li, Wei and Chang, Yi and Dong, Weiming},
-  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
-  title={Semantic-Context Graph Network for Point-based 3D Object Detection}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1109/TCSVT.2023.3271318}}
+              author={Dong, Shuwei and Kong, Xiaoyu and Pan, Xingjia and Tang, Fan and Li, Wei and Chang, Yi and Dong, Weiming},
+              journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+              title={Semantic-Context Graph Network for Point-based 3D Object Detection}, 
+              year={2023},
+              volume={},
+              number={},
+              pages={1-1},
+              doi={10.1109/TCSVT.2023.3271318}}
 
 
 ## Interests
